@@ -1,0 +1,6 @@
+nome=input('Qual é o seu nome?')
+idade=input('Qual a sua idade?')
+peso=input('Qual o seu peso?')
+nascimento=input('Qual sua data de nascimento? (DD/MM/AA)')
+print('seu nome é',nome,'e pesa',peso,'kg')
+print('você nasceu em {} portanto tem {} anos'.format(nascimento,idade))
